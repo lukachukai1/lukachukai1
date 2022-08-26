@@ -1,0 +1,111 @@
+import time
+
+letter1 = "a"
+letter2 = "a"
+letter3 = "a"
+letter4 = "a"
+letter5 = "a"
+letter6 = "a"
+letter7 = "a"
+letter8 = "a"
+letter9 = "a"
+letter10 = "a"
+num1 = 1
+num2 = 1
+num3 = 1
+num4 = 1
+num5 = 1
+num6 = 1
+num7 = 1
+num8 = 1
+num9 = 1
+num10 = 1
+
+while True:
+  letter1 = chr(num1 + 96) 
+  letter2 = chr(num2 + 96) 
+  letter3 = chr(num3 + 96) 
+  letter4 = chr(num4 + 96) 
+  letter5 = chr(num5 + 96) 
+  letter6 = chr(num6 + 96) 
+  letter7 = chr(num7 + 96) 
+  letter8 = chr(num8 + 96) 
+  letter9 = chr(num9 + 96) 
+  letter10 = chr(num10 + 96) 
+  
+  print(letter1, letter2, letter3, letter4, letter5, letter6, letter7, letter8, letter9, letter10)
+
+  if num1 != 26:
+    num1 = num1 + 1
+  elif num2 != 26:
+    num2 = num2 + 1
+    num1 = 1
+  elif num3 != 26:
+    num3 = num3 + 1
+    num2 = 1
+    num1 = 1
+  elif num4 != 26:
+    num4 = num4 + 1
+    num3 = 1
+    num2 = 1
+    num1 = 1
+  elif num5 != 26:
+    num5 = num5 + 1
+    num4 = 1
+    num3 = 1
+    num2 = 1
+    num1 = 1
+  elif num6 != 26:
+    num6 = num6 + 1
+    num5 = 1
+    num4 = 1
+    num3 = 1 
+    num2 = 1
+    num1 = 1
+  elif num7 != 26:
+    num7 = num7 + 1
+    num6 = 1
+    num5 = 1
+    num4 = 1 
+    num3 = 1
+    num2 = 1
+    num1 = 1
+  elif num8 != 26:
+    num8 = num8 + 1
+    num7 = 1
+    num6 = 1 
+    num5 = 1
+    num4 = 1 
+    num3 = 1
+    num2 = 1
+    num1 = 1
+  elif num9 != 26:
+    num9 = num9 + 1
+    num8 = 1
+    num7 = 1
+    num6 = 1 
+    num5 = 1
+    num4 = 1 
+    num3 = 1
+    num2 = 1
+    num1 = 1    
+  elif num10 != 26:
+    num10 = num10 + 1
+    num9 = 1
+    num8 = 1
+    num7 = 1
+    num6 = 1 
+    num5 = 1
+    num4 = 1 
+    num3 = 1
+    num2 = 1
+    num1 = 1    
+
+
+
+    
+  
+
+  if num10 == 27:
+    break
+  
